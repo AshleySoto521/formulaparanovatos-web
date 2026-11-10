@@ -16,11 +16,11 @@ destacado: true
 	import Foto from '#lib/components/Foto.svelte';
 </script>
 
-El Gran Premio de São Paulo dejó de todo: una pole bajo pista mojada, una parrilla revuelta por las sanciones de motor, una remontada de esas que se recuerdan y un título que se decidió matemáticamente. **Lando Norris (McLaren)** ganó de punta a punta en Interlagos, **Max Verstappen** salió 21.º y terminó 2.º, y **Mercedes se aseguró el Campeonato de Constructores 2026**.
+El Gran Premio de São Paulo dejó de todo: una pole bajo pista mojada, una parrilla revuelta por las sanciones de motor, una remontada de esas que se recuerdan y un título que se decidió matemáticamente. **Lando Norris (McLaren)** ganó en Interlagos, **Max Verstappen** salió 21.º y terminó 2.º, y **Mercedes se aseguró el Campeonato de Constructores 2026**.
 
 <div class="dato">
 
-**En corto:** Norris ganó desde la pole · Verstappen remontó 19 lugares hasta el podio · Isack Hadjar completó un doble podio de Red Bull · Mercedes es campeón de Constructores con tres carreras por disputar · Kimi Antonelli, ya campeón de Pilotos, hizo la vuelta rápida.
+**En corto:** Norris ganó desde la pole, aunque tuvo que recuperar el liderato · Verstappen remontó 19 lugares hasta el podio · Isack Hadjar completó un doble podio de Red Bull · Mercedes es campeón de Constructores con tres carreras por disputar · Kimi Antonelli, ya campeón de Pilotos, hizo la vuelta rápida.
 
 </div>
 
@@ -29,7 +29,7 @@ El Gran Premio de São Paulo dejó de todo: una pole bajo pista mojada, una parr
 - **Práctica 1:** Norris fue el más rápido, por delante de Kimi Antonelli (Mercedes) y Verstappen (Red Bull).
 - **Práctica 2:** Antonelli lideró, seguido de Norris y Verstappen.
 - **Práctica 3:** Verstappen marcó el mejor tiempo, con Antonelli y Norris detrás, aunque ya sabía que tendría que salir desde el fondo.
-- **Clasificación:** con lluvia intensa poco antes de la Q1 y toda la sesión con neumáticos de lluvia, según Pirelli, **Norris se quedó con la pole** (1:27.470). George Russell fue 2.º, pero la vuelta más rápida del sábado fue suya (1:26.745, en la Q2). **Fernando Alonso** metió al Aston Martin en la **Q3** y clasificó 9.º.
+- **Clasificación:** bajo la lluvia y con la sesión retrasada por el agua en la pista, **Norris se quedó con la pole** (1:27.470). George Russell fue 2.º, pero la vuelta más rápida del sábado fue suya (1:26.745, en la Q2). **Fernando Alonso** clasificó 9.º: fue la primera vez en 2026 que un Aston Martin llegó a la **Q3**.
 
 <Foto
 	src="/img/noticias/gp-sao-paulo-2026/antonelli-lluvia.webp"
@@ -41,9 +41,11 @@ El Gran Premio de São Paulo dejó de todo: una pole bajo pista mojada, una parr
 
 ## La carrera
 
-Con lluvia en la salida y neumáticos intermedios, según Pirelli, Norris convirtió la pole en victoria con un tiempo de **1:35:23.504** en las 71 vueltas, y cruzó la meta con **14.6 segundos** de ventaja.
+La carrera arrancó con la pista mojada. **Antonelli le ganó la salida a Norris** y lideró las primeras vueltas, hasta que en la **vuelta 20** hizo un trompo en la curva 1, poco después de avisar por radio que sentía algo raro en el auto. Norris heredó el liderato y ya no lo soltó.
 
-La historia del día fue **Verstappen**: con una sanción de 30 lugares por estrenar elementos del motor, arrancó **21.º** y terminó **2.º**. Su compañero **Isack Hadjar**, que salió 5.º, completó el podio y le dio a Red Bull dos autos entre los tres primeros. Según su equipo, Verstappen fue elegido además **Piloto del Día**.
+La pista se secó lo suficiente para cambiar a neumáticos lisos entre las vueltas 14 y 17, y la lluvia volvió en el tramo final, cuando varios pilotos regresaron a los intermedios. Norris ganó con un tiempo de **1:35:23.504** en las 71 vueltas y **14.6 segundos** de ventaja. Fue su **tercera victoria** de la temporada.
+
+La historia del día fue **Verstappen**. Con una sanción de 30 lugares por estrenar elementos del motor, arrancó **21.º**. Al final de la primera vuelta ya era 13.º, en la vuelta 5 iba 8.º y en la vuelta 38 rebasó a su compañero **Isack Hadjar** para quedarse con el 2.º lugar. Hadjar, que salió 5.º, completó el doble podio de Red Bull. Su equipo informó además que Verstappen fue elegido **Piloto del Día**.
 
 <Foto
 	src="/img/noticias/gp-sao-paulo-2026/verstappen-trofeo.webp"
@@ -61,7 +63,7 @@ La historia del día fue **Verstappen**: con una sanción de 30 lugares por estr
 	fuente="https://f1pressarea.pirelli.com/2026-brazilian-grand-prix---photo-gallery/"
 />
 
-Mercedes llegó 4.º y 5.º con **George Russell** y **Kimi Antonelli**. Antonelli, que se coronó campeón del mundo en México, marcó la **vuelta más rápida** de la carrera (1:12.689), pero recibió **5 segundos de penalización** por una liberación insegura en pits.
+Mercedes llegó 4.º y 5.º con **George Russell** y **Kimi Antonelli**, pese a que los dos hicieron trompos: Russell al salir de pits en la vuelta 16. Antonelli, que se coronó campeón del mundo en México, marcó la **vuelta más rápida** de la carrera (1:12.689), pero recibió **5 segundos de penalización** por una liberación insegura en pits.
 
 ### Clasificación final (top 10)
 
@@ -78,7 +80,7 @@ Mercedes llegó 4.º y 5.º con **George Russell** y **Kimi Antonelli**. Antonel
 | 9 | Lewis Hamilton | Ferrari | +1 vuelta | 2 |
 | 10 | Nico Hülkenberg | Audi | +1 vuelta | 1 |
 
-Fuera de los puntos: Alonso terminó 12.º, Franco Colapinto (Alpine) 13.º y Sergio Pérez (Cadillac) 18.º. **Lance Stroll** abandonó en la vuelta 30 y **Valtteri Bottas** no tomó la salida. El brasileño **Rafael Câmara** terminó 20.º en su debut con Haas, en casa.
+Fuera de los puntos: Alonso terminó 12.º, Franco Colapinto (Alpine) 13.º y Sergio Pérez (Cadillac) 18.º. **Lance Stroll** abandonó en la vuelta 30 y **Valtteri Bottas** no tomó la salida por un problema en su Cadillac. **Lewis Hamilton** terminó 9.º en su Gran Premio número 400. El brasileño **Rafael Câmara** terminó 20.º en su debut con Haas, en casa.
 
 ## Mercedes, campeón de Constructores
 
@@ -120,6 +122,19 @@ Cada piloto tiene un número limitado de piezas de motor por temporada. Usar una
 - **Rafael Câmara** fue reprendido por estorbar a Leclerc en la Práctica 2, y **Bearman** por echarse en reversa dentro del pit lane.
 - Alpine recibió una **multa de 100 euros** porque Colapinto rebasó por 0.6 km/h el límite de velocidad de 80 km/h en pits.
 
+## Lo que dijeron
+
+Declaraciones de pilotos y jefes de equipo tras la carrera, recogidas por Formula1.com (traducción nuestra):
+
+- **Lando Norris (McLaren):** «Sin duda, una de nuestras mejores actuaciones de la historia».
+- **Andrea Stella (jefe de McLaren):** «Es fantástico volver a lo más alto del podio».
+- **Max Verstappen (Red Bull):** «Salir 21.º y llegar 2.º fue un resultado loco».
+- **Isack Hadjar (Red Bull):** «Fue una carrera muy exigente, en condiciones increíblemente difíciles, pero la disfruté mucho».
+- **Kimi Antonelli (Mercedes):** «Estoy decepcionado con mi carrera, porque de verdad sentí que la victoria estaba ahí».
+- **Toto Wolff (jefe de Mercedes):** «Ganar el campeonato del mundo es un momento de orgullo para cada miembro del equipo».
+- **Charles Leclerc (Ferrari):** «Ejecutamos bien, simplemente no tuvimos el ritmo en estas condiciones».
+- **Nico Hülkenberg (Audi):** «Es bueno salir de una carrera tan complicada con un punto».
+
 ## Cómo queda el Campeonato de Pilotos
 
 | Pos. | Piloto | Equipo | Puntos |
@@ -137,9 +152,11 @@ Cada piloto tiene un número limitado de piezas de motor por temporada. Usar una
 
 La pelea ahora es por el subcampeonato: Verstappen, Russell, Hamilton, Leclerc y Norris están separados por apenas 33 puntos.
 
-## Documentos oficiales de la FIA
+## Fuentes
 
-Todo lo que contamos aquí sale de los documentos publicados por los comisarios. Puedes consultarlos completos:
+Para esta nota cruzamos varias fuentes oficiales.
+
+**FIA (documentos de los comisarios):**
 
 - [Clasificación final de la carrera](https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_final_race_classification.pdf)
 - [Parrilla de salida final, con todas las sanciones](https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_final_starting_grid.pdf)
@@ -148,6 +165,14 @@ Todo lo que contamos aquí sale de los documentos publicados por los comisarios.
 - [Sanción a Antonelli: liberación insegura](https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_12_-_unsafe_release.pdf)
 - [Sanción a Leclerc: causar un choque](https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_16_-_causing_a_collision.pdf)
 - [Sanción a Hamilton: elementos adicionales del motor](https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_infringement_-_car_44_-_additional_changes_to_pu_elements.pdf)
-- [Todos los documentos del GP de São Paulo en el sitio de la FIA](https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072)
+- [Todos los documentos del GP de São Paulo](https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2026-2072)
+
+**Formula 1 (sitio oficial):**
+
+- [Crónica de la carrera](https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI)
+- [Lo que dijeron los equipos](https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-brazil-2026.6WRrgNQ7FDoFnwzxR9Vjw7)
+- [Resultados oficiales](https://www.formula1.com/en/results/2026/races/1299/brazil/race-result)
+
+**Equipos y proveedores:** comunicados de Oracle Red Bull Racing y de Pirelli Motorsport.
 
 **Próxima parada:** el Gran Premio de Las Vegas.
