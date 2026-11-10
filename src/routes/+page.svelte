@@ -2,6 +2,7 @@
 	import Seo from '#lib/components/Seo.svelte';
 	import TarjetaNoticia from '#lib/components/TarjetaNoticia.svelte';
 	import TarjetaEpisodio from '#lib/components/TarjetaEpisodio.svelte';
+	import Boletin from '#lib/components/Boletin.svelte';
 	import { sitio, redes, absoluta } from '#lib/config.ts';
 	import { secciones } from '#lib/data/secciones.ts';
 	import type { PageProps } from './$types';
@@ -111,6 +112,8 @@
 			{/each}
 		</div>
 	</section>
+
+	<div class="bloque"><Boletin /></div>
 
 	<section class="bloque cta" aria-labelledby="t-cta">
 		<h2 id="t-cta">¿Hacemos equipo?</h2>

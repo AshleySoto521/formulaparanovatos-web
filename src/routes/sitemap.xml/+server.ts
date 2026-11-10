@@ -12,6 +12,8 @@ export function GET() {
 		{ loc: '/episodios' },
 		{ loc: '/nosotros' },
 		{ loc: '/contacto' },
+		{ loc: '/privacidad' },
+		{ loc: '/terminos' },
 		...secciones.map((s) => {
 			const p = posts.find((x) => x.seccion === s.slug);
 			return { loc: `/seccion/${s.slug}`, lastmod: p?.actualizado ?? p?.fecha };

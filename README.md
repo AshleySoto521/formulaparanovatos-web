@@ -76,6 +76,15 @@ por otra, **ponle un nombre nuevo** (por ejemplo `portada-v2.webp`) y actualiza 
 así el cambio se ve de inmediato. Si conservas el nombre, puede tardar hasta un día en verse o hay
 que purgar esa URL en Cloudflare (Almacenamiento en caché → Configuración → Purga personalizada).
 
+## Boletín (MailerLite)
+
+La caja «Suscribirme» (pie de página, portada y final de cada nota) manda el correo directo a MailerLite;
+el sitio no guarda datos. Para conectarla, llena `boletin.cuenta` y `boletin.formulario` en
+`src/lib/config.ts` con los números de la URL del formulario incrustado de MailerLite
+(`https://assets.mailerlite.com/jsonp/<cuenta>/forms/<formulario>/subscribe`). Mientras estén vacíos,
+la caja solo se ve con `npm run dev`. El Aviso de Privacidad (`/privacidad`) y los Términos (`/terminos`)
+usan los datos de `responsable` en el mismo archivo.
+
 ## Agregar un episodio
 
 1. Agrega `{ id, titulo, formato }` hasta arriba en `src/lib/data/episodios.ts`.

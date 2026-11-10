@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { redes, sitio, menu } from '#lib/config.ts';
 	import { secciones } from '#lib/data/secciones.ts';
+	import Boletin from './Boletin.svelte';
 </script>
 
 <footer class="pie">
@@ -40,11 +41,15 @@
 				{/each}
 			</ul>
 			<p class="correo"><a href="mailto:{sitio.correo}">{sitio.correo}</a></p>
+			<div class="suscribe"><Boletin compacto /></div>
 		</div>
 	</div>
 	<div class="contenedor legal">
 		<p>© {new Date().getFullYear()} {sitio.nombre}. Hecho en México.</p>
 		<p>Proyecto independiente de aficionados, sin afiliación con la Fórmula 1, la FIA ni sus equipos.</p>
+		<p class="enlaces-legales">
+			<a href="/privacidad">Aviso de Privacidad</a> · <a href="/terminos">Términos de uso</a>
+		</p>
 	</div>
 </footer>
 
@@ -120,6 +125,12 @@
 	}
 	.legal p {
 		margin: 0;
+	}
+	.enlaces-legales a {
+		color: var(--texto-2);
+	}
+	.suscribe {
+		margin-top: 22px;
 	}
 	@media (max-width: 860px) {
 		.rejilla {

@@ -11,7 +11,24 @@ export const sitio = {
 	autor: 'Fórmula para Novatos'
 } as const;
 
-export type Red = { nombre: string; url: string; usuario: string };
+/**
+ * Boletín (MailerLite). Ambos datos salen del formulario incrustado de MailerLite:
+ * Forms → Embedded forms → el formulario → HTML code, en la URL
+ * https://assets.mailerlite.com/jsonp/<cuenta>/forms/<formulario>/subscribe
+ * Mientras estén vacíos, la caja de suscripción no se muestra en el sitio publicado.
+ */
+export const boletin = {
+	cuenta: '2785516',
+	formulario: '203782905382569004'
+};
+
+/** Responsable de los datos personales (Aviso de Privacidad). */
+export const responsable = {
+	nombre: 'Fórmula para Novatos',
+	domicilio: 'Ciudad de México, México'
+};
+
+export type Red ={ nombre: string; url: string; usuario: string };
 
 export const redes: Red[] = [
 	{ nombre: 'YouTube', url: 'https://www.youtube.com/@FormulaparaNovatos', usuario: '@FormulaparaNovatos' },

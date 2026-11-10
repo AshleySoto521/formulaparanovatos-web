@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Seo from '#lib/components/Seo.svelte';
 	import Compartir from '#lib/components/Compartir.svelte';
+	import Boletin from '#lib/components/Boletin.svelte';
 	import TarjetaNoticia from '#lib/components/TarjetaNoticia.svelte';
 	import { sitio, absoluta, redes } from '#lib/config.ts';
 	import { fechaLarga } from '#lib/posts.ts';
@@ -114,6 +115,7 @@
 					{/each}
 				</p>
 			</aside>
+			<div class="caja-boletin"><Boletin /></div>
 		</footer>
 	</div>
 </article>
@@ -298,6 +300,9 @@
 		gap: 6px 16px;
 		margin-top: 8px !important;
 		font-weight: 600;
+	}
+	.caja-boletin {
+		margin-top: 28px;
 	}
 	.relacionados {
 		margin-top: 64px;
