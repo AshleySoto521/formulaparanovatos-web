@@ -4,6 +4,11 @@
   X-Frame-Options: SAMEORIGIN
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
+/_app/immutable/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Cache-Control: public, max-age=2592000
 /*.png
   Cache-Control: public, max-age=2592000
 /*.webp
@@ -15,4 +20,6 @@
 
 # Las vistas previas *.pages.dev no deben indexarse (contenido duplicado)
 https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+https://:version.:project.pages.dev/*
   X-Robots-Tag: noindex

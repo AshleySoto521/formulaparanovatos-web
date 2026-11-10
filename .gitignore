@@ -1,3 +1,23 @@
-sitio.zip
+node_modules
+
+# Salida de compilación
+.output
+.wrangler
+/.svelte-kit
+/build
+
+# Sistema
 .DS_Store
 Thumbs.db
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Otros
+sitio.zip

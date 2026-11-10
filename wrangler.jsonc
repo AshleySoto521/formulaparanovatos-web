@@ -1,0 +1,7 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "formulaparanovatos-web",
+	"compatibility_date": "2026-11-10",
+	"compatibility_flags": ["nodejs_als"],
+	"pages_build_output_dir": ".svelte-kit/cloudflare"
+}
