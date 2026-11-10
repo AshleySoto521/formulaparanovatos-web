@@ -82,6 +82,16 @@
 
 	<figure class="contenedor portada">
 		<img src={post.portada} alt={post.portadaAlt} width="1200" height="630" fetchpriority="high" />
+		{#if post.portadaCredito}
+			<figcaption>
+				Foto:
+				{#if post.portadaCreditoUrl}
+					<a href={post.portadaCreditoUrl} target="_blank" rel="noopener">{post.portadaCredito}</a>
+				{:else}
+					{post.portadaCredito}
+				{/if}
+			</figcaption>
+		{/if}
 	</figure>
 
 	<div class="contenedor">
@@ -167,6 +177,15 @@
 		width: 100%;
 		border-radius: var(--radio);
 		border-bottom: 4px solid var(--color);
+	}
+	.portada figcaption {
+		margin-top: 8px;
+		font-size: 0.8rem;
+		color: var(--texto-3);
+		text-align: right;
+	}
+	.portada figcaption a {
+		color: inherit;
 	}
 
 	.prosa {

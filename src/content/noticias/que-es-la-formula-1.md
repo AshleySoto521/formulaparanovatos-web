@@ -7,7 +7,6 @@ portada: /img/noticias/que-es-la-formula-1.webp
 portadaOg: /img/noticias/que-es-la-formula-1.jpg
 portadaAlt: 'Portada de la guía «¿Qué es la Fórmula 1?» de Fórmula para Novatos'
 etiquetas: [guía, reglamento, novatos]
-destacado: true
 ---
 
 <script>

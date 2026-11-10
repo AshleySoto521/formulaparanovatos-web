@@ -14,6 +14,9 @@ export type Frontmatter = {
 	/** Versión .jpg 1200×630 para redes sociales (opcional; si falta se usa la general). */
 	portadaOg?: string;
 	portadaAlt: string;
+	/** Crédito de la portada si es una foto con licencia, p. ej. "Nombre, CC BY-SA 4.0". */
+	portadaCredito?: string;
+	portadaCreditoUrl?: string;
 	autor?: string;
 	etiquetas?: string[];
 	destacado?: boolean;

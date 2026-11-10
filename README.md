@@ -52,6 +52,19 @@ Cada push a `main` se publica solo en https://formulaparanovatos.com. Las demás
    <YouTube id="ID_DEL_VIDEO" titulo="Título del video" vertical />
    ```
 
+   Para una foto con crédito (obligatorio en imágenes Creative Commons, por ejemplo de Wikimedia Commons):
+
+   ```svelte
+   <script>
+   	import Foto from '#lib/components/Foto.svelte';
+   </script>
+
+   <Foto src="/img/noticias/<slug>/foto.webp" alt="Descripción" pie="Texto del pie"
+   	autor="Nombre del autor" licencia="CC BY 4.0" fuente="https://commons.wikimedia.org/wiki/File:..." />
+   ```
+
+   Si la portada es una foto con licencia, agrega `portadaCredito: 'Autor, CC BY-SA 4.0'` y `portadaCreditoUrl` al encabezado.
+
    Para un recuadro destacado usa `<div class="dato">…</div>` (deja una línea en blanco dentro).
 
    Evita escribir llaves `{ }` sueltas en el texto: Svelte las interpreta como código.
