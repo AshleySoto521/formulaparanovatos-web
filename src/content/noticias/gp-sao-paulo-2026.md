@@ -5,9 +5,9 @@ fecha: '2026-11-10'
 seccion: radio-paddock
 portada: /img/noticias/gp-sao-paulo-2026.webp
 portadaOg: /img/noticias/gp-sao-paulo-2026.jpg
-portadaAlt: 'Vista aérea del Autódromo José Carlos Pace, en Interlagos, São Paulo'
-portadaCredito: 'ProtoplasmaKid, CC BY-SA 4.0'
-portadaCreditoUrl: 'https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_02.jpg'
+portadaAlt: 'Lando Norris recibe de Alexandre Pato el premio Pirelli a la pole position en Interlagos'
+portadaCredito: 'BY COURTESY OF PIRELLI'
+portadaCreditoUrl: 'https://f1pressarea.pirelli.com/2026-brazilian-grand-prix---photo-gallery/'
 etiquetas: [São Paulo, Interlagos, Norris, Verstappen, Mercedes, resultados]
 destacado: true
 ---
@@ -29,21 +29,36 @@ El Gran Premio de São Paulo dejó de todo: una pole bajo pista mojada, una parr
 - **Práctica 1:** Norris fue el más rápido, por delante de Kimi Antonelli (Mercedes) y Verstappen (Red Bull).
 - **Práctica 2:** Antonelli lideró, seguido de Norris y Verstappen.
 - **Práctica 3:** Verstappen marcó el mejor tiempo, con Antonelli y Norris detrás, aunque ya sabía que tendría que salir desde el fondo.
-- **Clasificación:** con la pista mojada y tiempos unos 15 segundos más lentos que en carrera, **Norris se quedó con la pole** (1:27.470). George Russell fue 2.º, pero la vuelta más rápida del sábado fue suya (1:26.745, en la Q2). **Fernando Alonso** metió al Aston Martin en la **Q3** y clasificó 9.º.
+- **Clasificación:** con lluvia intensa poco antes de la Q1 y toda la sesión con neumáticos de lluvia, según Pirelli, **Norris se quedó con la pole** (1:27.470). George Russell fue 2.º, pero la vuelta más rápida del sábado fue suya (1:26.745, en la Q2). **Fernando Alonso** metió al Aston Martin en la **Q3** y clasificó 9.º.
+
+<Foto
+	src="/img/noticias/gp-sao-paulo-2026/antonelli-lluvia.webp"
+	alt="El Mercedes de Kimi Antonelli levanta agua en la pista mojada de Interlagos"
+	pie="Kimi Antonelli bajo la lluvia en la clasificación del sábado."
+	autor="BY COURTESY OF PIRELLI"
+	fuente="https://f1pressarea.pirelli.com/2026-brazilian-grand-prix---photo-gallery/"
+/>
 
 ## La carrera
 
-Norris convirtió la pole en victoria con un tiempo de **1:35:23.504** en las 71 vueltas, y cruzó la meta con **14.6 segundos** de ventaja.
+Con lluvia en la salida y neumáticos intermedios, según Pirelli, Norris convirtió la pole en victoria con un tiempo de **1:35:23.504** en las 71 vueltas, y cruzó la meta con **14.6 segundos** de ventaja.
 
-La historia del día fue **Verstappen**: con una sanción de 30 lugares por estrenar elementos del motor, arrancó **21.º** y terminó **2.º**. Su compañero **Isack Hadjar**, que salió 5.º, completó el podio y le dio a Red Bull dos autos entre los tres primeros.
+La historia del día fue **Verstappen**: con una sanción de 30 lugares por estrenar elementos del motor, arrancó **21.º** y terminó **2.º**. Su compañero **Isack Hadjar**, que salió 5.º, completó el podio y le dio a Red Bull dos autos entre los tres primeros. Según su equipo, Verstappen fue elegido además **Piloto del Día**.
 
 <Foto
-	src="/img/noticias/gp-sao-paulo-2026/verstappen.webp"
-	alt="Max Verstappen al volante de su Red Bull"
-	pie="Max Verstappen remontó 19 posiciones en Interlagos. Imagen de archivo: Gran Premio de Italia 2025."
-	autor="Eustace Bagge"
-	licencia="CC BY 4.0"
-	fuente="https://commons.wikimedia.org/wiki/File:Max_Verstappen_2025_Italian_Grand_Prix_FP3.jpg"
+	src="/img/noticias/gp-sao-paulo-2026/verstappen-trofeo.webp"
+	alt="Max Verstappen levanta su trofeo de segundo lugar en el podio de Interlagos"
+	pie="Del 21.º al 2.º: Max Verstappen con su trofeo en el podio de São Paulo."
+	autor="BY COURTESY OF PIRELLI"
+	fuente="https://f1pressarea.pirelli.com/2026-brazilian-grand-prix---photo-gallery/"
+/>
+
+<Foto
+	src="/img/noticias/gp-sao-paulo-2026/hadjar-trofeo.webp"
+	alt="Isack Hadjar levanta su trofeo de tercer lugar en el podio de Interlagos"
+	pie="Isack Hadjar completó el doble podio de Red Bull."
+	autor="BY COURTESY OF PIRELLI"
+	fuente="https://f1pressarea.pirelli.com/2026-brazilian-grand-prix---photo-gallery/"
 />
 
 Mercedes llegó 4.º y 5.º con **George Russell** y **Kimi Antonelli**. Antonelli, que se coronó campeón del mundo en México, marcó la **vuelta más rápida** de la carrera (1:12.689), pero recibió **5 segundos de penalización** por una liberación insegura en pits.
@@ -67,16 +82,7 @@ Fuera de los puntos: Alonso terminó 12.º, Franco Colapinto (Alpine) 13.º y Se
 
 ## Mercedes, campeón de Constructores
 
-Con los puntos de Interlagos, Mercedes llegó a **652 puntos**, 142 más que Ferrari (510). Quedan tres Grandes Premios (Las Vegas, Qatar y Abu Dabi), con un máximo de 43 puntos por equipo en cada uno: 129 en juego. **El título de Constructores ya es de Mercedes.**
-
-<Foto
-	src="/img/noticias/gp-sao-paulo-2026/antonelli.webp"
-	alt="Kimi Antonelli al volante de su Mercedes"
-	pie="Kimi Antonelli, campeón de Pilotos 2026, sumó en Interlagos la vuelta más rápida. Imagen de archivo: Gran Premio de Italia 2025."
-	autor="Eustace Bagge"
-	licencia="CC BY 4.0"
-	fuente="https://commons.wikimedia.org/wiki/File:Andrea_Kimi_Antonelli_2025_Italian_Grand_Prix_qualifying3.jpg"
-/>
+Con los puntos de Interlagos, Mercedes llegó a **652 puntos**, 142 más que Ferrari (510). Quedan tres Grandes Premios (Las Vegas, Qatar y Abu Dabi), con un máximo de 43 puntos por equipo en cada uno: 129 en juego. **El título de Constructores ya es de Mercedes.** Es el noveno de su historia.
 
 ## Las sanciones de la FIA, explicadas
 
@@ -130,15 +136,6 @@ Cada piloto tiene un número limitado de piezas de motor por temporada. Usar una
 | 10 | Pierre Gasly | Alpine | 42 |
 
 La pelea ahora es por el subcampeonato: Verstappen, Russell, Hamilton, Leclerc y Norris están separados por apenas 33 puntos.
-
-<Foto
-	src="/img/noticias/gp-sao-paulo-2026/norris.webp"
-	alt="Lando Norris al volante de su McLaren"
-	pie="Lando Norris ganó desde la pole en São Paulo. Imagen de archivo: Gran Premio de Italia 2025."
-	autor="Eustace Bagge"
-	licencia="CC BY 4.0"
-	fuente="https://commons.wikimedia.org/wiki/File:Lando_Norris_2025_Italian_Grand_Prix_qualifying.jpg"
-/>
 
 ## Documentos oficiales de la FIA
 
