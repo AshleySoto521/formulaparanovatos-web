@@ -8,15 +8,15 @@
   Cache-Control: public, max-age=31536000, immutable
 
 /img/*
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=86400
 /*.png
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=86400
 /*.webp
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=86400
 /*.jpg
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=86400
 /favicon.ico
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=86400
 
 # Las vistas previas *.pages.dev no deben indexarse (contenido duplicado)
 https://:project.pages.dev/*

@@ -69,6 +69,13 @@ Cada push a `main` se publica solo en https://formulaparanovatos.com. Las demás
 
    Evita escribir llaves `{ }` sueltas en el texto: Svelte las interpreta como código.
 
+## Cambiar una imagen que ya está publicada
+
+Las imágenes se guardan en caché hasta 1 día (navegadores y Cloudflare). Si reemplazas una imagen
+por otra, **ponle un nombre nuevo** (por ejemplo `portada-v2.webp`) y actualiza la ruta en la nota;
+así el cambio se ve de inmediato. Si conservas el nombre, puede tardar hasta un día en verse o hay
+que purgar esa URL en Cloudflare (Almacenamiento en caché → Configuración → Purga personalizada).
+
 ## Agregar un episodio
 
 1. Agrega `{ id, titulo, formato }` hasta arriba en `src/lib/data/episodios.ts`.
