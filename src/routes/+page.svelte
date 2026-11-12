@@ -66,14 +66,14 @@
 </section>
 
 <div class="contenedor">
+	<div class="bloque"><ProximaCarrera generado={data.generado} /></div>
+
 	{#if data.destacado}
 		<section class="bloque" aria-labelledby="t-destacado">
 			<h2 id="t-destacado" class="visualmente-oculto">Nota destacada</h2>
 			<TarjetaNoticia post={data.destacado} grande />
 		</section>
 	{/if}
-
-	<div class="bloque"><ProximaCarrera generado={data.generado} /></div>
 
 	{#if data.recientes.length}
 		<section class="bloque" aria-labelledby="t-recientes">
@@ -94,8 +94,15 @@
 			<h2 id="t-episodios">Últimos episodios</h2>
 			<a href="/episodios">Ver todos →</a>
 		</div>
+		{#if data.videos.length}
+			<div class="rejilla-videos">
+				{#each data.videos as episodio (episodio.id)}
+					<TarjetaEpisodio {episodio} />
+				{/each}
+			</div>
+		{/if}
 		<div class="rejilla-episodios">
-			{#each data.episodios as episodio (episodio.id)}
+			{#each data.shorts as episodio (episodio.id)}
 				<TarjetaEpisodio {episodio} />
 			{/each}
 		</div>
@@ -188,6 +195,12 @@
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 		gap: 22px;
 	}
+	.rejilla-videos {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 16px;
+		margin-bottom: 16px;
+	}
 	.rejilla-episodios {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -248,6 +261,10 @@
 		}
 		.rejilla-episodios {
 			grid-template-columns: repeat(2, 1fr);
+			gap: 12px;
+		}
+		.rejilla-videos {
+			grid-template-columns: 1fr;
 			gap: 12px;
 		}
 	}

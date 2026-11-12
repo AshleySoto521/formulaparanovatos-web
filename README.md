@@ -100,10 +100,12 @@ Fuentes: API pública Jolpica (calendario y resultados), trazados de
 [bacinger/f1-circuits](https://github.com/bacinger/f1-circuits) (MIT) y banderas de flag-icons (MIT).
 La cuenta regresiva y la siguiente carrera se calculan en el navegador con la hora real.
 
-## Agregar un episodio
+## Episodios (YouTube)
 
-1. Agrega `{ id, titulo, formato }` hasta arriba en `src/lib/data/episodios.ts`.
-2. Guarda la miniatura vertical (360×640, .webp) en `static/img/ep-<ID>.webp`. La original está en `https://i.ytimg.com/vi/<ID>/oar2.jpg`.
+La lista de videos y Shorts se toma del feed público del canal en cada build, y las miniaturas
+se guardan en `static/img/episodios/`. Para actualizarla a mano: `npm run episodios`.
+Si quieres que un video tenga otro título en el sitio, agrégale `"tituloSitio": "..."` en
+`src/lib/data/episodios.json`.
 
 ## Estructura
 

@@ -9,9 +9,10 @@
 	},
 	"scripts": {
 		"dev": "vite dev",
-		"prebuild": "node scripts/calendario.mjs --si-falla-seguir",
+		"prebuild": "node scripts/calendario.mjs --si-falla-seguir && node scripts/episodios.mjs --si-falla-seguir",
 		"build": "wrangler types --check && vite build",
 		"calendario": "node scripts/calendario.mjs",
+		"episodios": "node scripts/episodios.mjs",
 		"preview": "wrangler pages dev .svelte-kit/cloudflare --port 4173",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "wrangler types --check && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",

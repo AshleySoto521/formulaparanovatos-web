@@ -1,15 +1,21 @@
 <script lang="ts">
-	import { type Episodio, urlEpisodio } from '#lib/data/episodios.ts';
+	import { type Episodio, urlEpisodio, tituloDe } from '#lib/data/episodios.ts';
 
 	let { episodio }: { episodio: Episodio } = $props();
 </script>
 
-<a class="ep" href={urlEpisodio(episodio)} target="_blank" rel="noopener">
+<a class="ep" class:horizontal={episodio.formato === 'video'} href={urlEpisodio(episodio)} target="_blank" rel="noopener">
 	<div class="miniatura">
-		<img src="/img/ep-{episodio.id}.webp" width="360" height="640" loading="lazy" alt="" />
+		<img
+			src={episodio.miniatura}
+			width={episodio.formato === 'video' ? 640 : 360}
+			height={episodio.formato === 'video' ? 360 : 640}
+			loading="lazy"
+			alt=""
+		/>
 		<span class="play" aria-hidden="true"></span>
 	</div>
-	<h3>{episodio.titulo}</h3>
+	<h3>{tituloDe(episodio)}</h3>
 	<span class="visualmente-oculto">(se abre YouTube en una pestaña nueva)</span>
 </a>
 
@@ -37,7 +43,15 @@
 		aspect-ratio: 9 / 16;
 		background: #0c0d0e;
 	}
+	.horizontal .miniatura {
+		aspect-ratio: 16 / 9;
+	}
+	.miniatura {
+		overflow: hidden;
+	}
 	.miniatura img {
+		position: absolute;
+		inset: 0;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;

@@ -1,30 +1,27 @@
+import lista from './episodios.json';
+
 export type Episodio = {
 	/** ID del video de YouTube. */
 	id: string;
+	/** Título tal como está en YouTube (sin hashtags). */
 	titulo: string;
+	/** Título propio para el sitio (opcional, en episodios.json). */
+	tituloSitio?: string;
 	/** `short` (vertical) o `video` (horizontal). */
 	formato: 'short' | 'video';
+	fecha: string;
+	miniatura: string;
 };
 
 /**
- * Episodios del canal, del más reciente al más antiguo.
- * Para agregar uno: pon su ID y título hasta arriba y guarda su miniatura
- * vertical (360×640, .webp) en `static/img/ep-ID.webp`.
+ * Episodios del canal, del más reciente al más antiguo. Se actualizan solos en cada build
+ * desde el feed de YouTube (scripts/episodios.mjs); para hacerlo a mano: `npm run episodios`.
  */
-export const episodios: Episodio[] = [
-	{
-		id: 'zs6ZUul6YPU',
-		titulo: '3 carreras de F1 que NO puedes perderte: Checo, Alonso y Button',
-		formato: 'short'
-	},
-	{
-		id: '6WSW4xwnlC8',
-		titulo: '¿Schumacher fue el mejor o Ferrari tenía el mejor equipo?',
-		formato: 'short'
-	},
-	{ id: 'Kuv6pKUKRvQ', titulo: 'Gran Premio de México 2026', formato: 'short' },
-	{ id: 'RzyT7Ua1lUc', titulo: '¿Qué es la Fórmula 1?', formato: 'short' }
-];
+export const episodios = lista as Episodio[];
+export const videos = episodios.filter((e) => e.formato === 'video');
+export const shorts = episodios.filter((e) => e.formato === 'short');
+
+export const tituloDe = (e: Episodio) => e.tituloSitio || e.titulo;
 
 export const urlEpisodio = (e: Episodio) =>
 	e.formato === 'short' ? `https://www.youtube.com/shorts/${e.id}` : `https://www.youtube.com/watch?v=${e.id}`;

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Seo from '#lib/components/Seo.svelte';
 	import TarjetaEpisodio from '#lib/components/TarjetaEpisodio.svelte';
-	import { episodios } from '#lib/data/episodios.ts';
+	import { videos, shorts } from '#lib/data/episodios.ts';
 	import { redes } from '#lib/config.ts';
 </script>
 
@@ -23,11 +23,26 @@
 </header>
 
 <div class="contenedor">
-	<div class="rejilla">
-		{#each episodios as episodio (episodio.id)}
-			<TarjetaEpisodio {episodio} />
-		{/each}
-	</div>
+	{#if videos.length}
+		<section aria-labelledby="t-videos">
+			<h2 id="t-videos">Videos</h2>
+			<div class="rejilla-videos">
+				{#each videos as episodio (episodio.id)}
+					<TarjetaEpisodio {episodio} />
+				{/each}
+			</div>
+		</section>
+	{/if}
+	{#if shorts.length}
+		<section aria-labelledby="t-shorts">
+			<h2 id="t-shorts">Shorts</h2>
+			<div class="rejilla">
+				{#each shorts as episodio (episodio.id)}
+					<TarjetaEpisodio {episodio} />
+				{/each}
+			</div>
+		</section>
+	{/if}
 </div>
 
 <style>
@@ -49,6 +64,18 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 10px;
+	}
+	section + section {
+		margin-top: 44px;
+	}
+	h2 {
+		font-size: 1.6rem;
+		margin-bottom: 16px;
+	}
+	.rejilla-videos {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+		gap: 18px;
 	}
 	.rejilla {
 		display: grid;
