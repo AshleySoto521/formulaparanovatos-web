@@ -3,6 +3,7 @@
 	import TarjetaNoticia from '#lib/components/TarjetaNoticia.svelte';
 	import TarjetaEpisodio from '#lib/components/TarjetaEpisodio.svelte';
 	import Boletin from '#lib/components/Boletin.svelte';
+	import ProximaCarrera from '#lib/components/ProximaCarrera.svelte';
 	import { sitio, redes, absoluta } from '#lib/config.ts';
 	import { secciones } from '#lib/data/secciones.ts';
 	import type { PageProps } from './$types';
@@ -71,6 +72,8 @@
 			<TarjetaNoticia post={data.destacado} grande />
 		</section>
 	{/if}
+
+	<div class="bloque"><ProximaCarrera generado={data.generado} /></div>
 
 	{#if data.recientes.length}
 		<section class="bloque" aria-labelledby="t-recientes">

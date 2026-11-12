@@ -85,6 +85,21 @@ el sitio no guarda datos. Para conectarla, llena `boletin.cuenta` y `boletin.for
 la caja solo se ve con `npm run dev`. El Aviso de Privacidad (`/privacidad`) y los Términos (`/terminos`)
 usan los datos de `responsable` en el mismo archivo.
 
+## Calendario y próxima carrera
+
+`/calendario` y el bloque «Próxima carrera» de la portada usan `src/lib/data/calendario-2026.json`
+(fechas, horarios, podios y trazado de cada circuito). Se actualiza solo en cada build
+(`prebuild`); si la API no responde, se usa el archivo guardado. Para actualizarlo a mano
+después de una carrera y subirlo:
+
+```bash
+npm run calendario
+```
+
+Fuentes: API pública Jolpica (calendario y resultados), trazados de
+[bacinger/f1-circuits](https://github.com/bacinger/f1-circuits) (MIT) y banderas de flag-icons (MIT).
+La cuenta regresiva y la siguiente carrera se calculan en el navegador con la hora real.
+
 ## Agregar un episodio
 
 1. Agrega `{ id, titulo, formato }` hasta arriba en `src/lib/data/episodios.ts`.

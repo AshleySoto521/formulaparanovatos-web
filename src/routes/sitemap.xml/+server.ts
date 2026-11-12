@@ -1,6 +1,9 @@
 import { posts } from '#lib/posts.ts';
 import { secciones } from '#lib/data/secciones.ts';
 import { sitio } from '#lib/config.ts';
+import { actualizado } from '#lib/calendario.ts';
+
+const actualizadoCal = actualizado.slice(0, 10);
 
 export const prerender = true;
 
@@ -9,6 +12,7 @@ export function GET() {
 	const urls: { loc: string; lastmod?: string }[] = [
 		{ loc: '/', lastmod: ultima },
 		{ loc: '/noticias', lastmod: ultima },
+		{ loc: '/calendario', lastmod: actualizadoCal },
 		{ loc: '/episodios' },
 		{ loc: '/nosotros' },
 		{ loc: '/contacto' },

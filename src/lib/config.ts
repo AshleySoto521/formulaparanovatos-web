@@ -39,6 +39,7 @@ export const redes: Red[] = [
 
 export const menu = [
 	{ href: '/noticias', texto: 'Noticias' },
+	{ href: '/calendario', texto: 'Calendario' },
 	{ href: '/episodios', texto: 'Episodios' },
 	{ href: '/nosotros', texto: 'Nosotros' },
 	{ href: '/contacto', texto: 'Contacto' }
